@@ -1,0 +1,314 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+nav {
+    /* position: fixed; */
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    /* position: relative; */
+}
+
+#leftContainer {
+    width: 60%;
+}
+
+#rightContainer {
+    width: 40%;
+    display: flex;
+    border-left: 2px solid gray;
+    flex-direction: column;
+    justify-content:flex-start;
+
+    margin-left: 100px;
+
+
+    /* position: absolute; */
+}
+
+.rightSection {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin: 50px;
+}
+
+.mediumTwitter {
+    display: flex;
+     align-items: center;
+    justify-content: center; 
+    gap: 5px;
+    margin: 5px 5px 5px 5px;
+    
+
+}
+
+.mediumImg {
+    width: 50px;
+
+}
+
+.plus {
+    color: rgba(117, 117, 117, 1);
+}
+
+.buttonContainer h3 {
+    font-size: 25px;
+    
+
+}
+.buttonContainer a{
+    color: gray;
+    background-color: none;
+
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    
+    margin: 10px;
+    padding: 10px;
+}
+
+.buttonX {
+    color: rgba(117, 117, 117, 1);
+    background-color: rgba(242, 242, 242, 1);
+    padding: 10px;
+    border-radius: 50px;
+    line-height: 20px;
+    font-size: 13px;
+    width: 150px;
+
+}
+
+
+.followList {
+    
+   margin: 15px;
+
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+   
+    margin-left: 10px;
+}
+
+.profile-pic {
+    border-radius: 100px; 
+    margin-right: 10px; 
+    
+    width: 45px;
+}
+
+.info {
+    flex-grow: 1; 
+}
+.info h3{
+    font-weight: 600;
+}
+
+.follow-btn {
+   
+}
+
+
+.topics{
+   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   margin: 10px;
+
+}
+.topics h2{
+   
+
+}
+
+.recommendedButton{
+    font-family: inherit;
+    color: white;
+    background-color: gray;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+    line-height: 10px;
+    
+}
+
+.recommendedButtonButton{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.container {
+
+    border-bottom: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo_ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo_ul img {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    font-family: inherit;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: 500;
+    padding: 7px 10px 7px 10px;
+    line-height: 10px;
+
+}
+
+.rightContainer {
+    margin-top: 50px;
+}
+
+.leftContainer {
+    display: flex;
+    justify-content: flex-end;
+    border: 5px solid black;
+}
+
+.firstContainer {
+    display: flex;
+    border-bottom: 2px solid gray;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    margin-left: 50px;
+
+}
+
+
+.card {
+    display: flex;
+    /* border: 2px solid yellow */
+    margin-left: 50px;
+    margin-top: 25px;
+
+}
+
+.content {
+    display: ;
+    /* border: 2px solid black; */
+    align-items: center;
+}
+
+.contentImg {
+    display: flex;
+    justify-content: flex-start;
+    /* border: 2px solid blue; */
+    align-items: center;
+
+}
+
+.contentImg span {
+    color: gray;
+    font-weight: 450;
+}
+
+.contentImg h4 {
+    font-weight: 900;
+    font-style: bold;
+}
+
+.contentImg img {
+    border-radius: 80px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.img {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    /* object-fit: cover; */
+}
+
+.bottomMenu {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.spanMenu {
+    color: gray;
+    font-size: 15px;
+    font-weight: 200px;
+    line-height: 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.punto {
+    padding-inline: 0.25rem;
+}
+
+.reactButton {
+    color: rgba(117, 117, 117, 1);
+    background-color: rgba(242, 242, 242, 1);
+    padding: 2px 8px;
+    border-radius: 100px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+
+
